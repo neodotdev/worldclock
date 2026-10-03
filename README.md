@@ -3,7 +3,7 @@
 World clock + timezone database for Python. Search zones by **region or country**, convert times, and run a live clock. Use it as a **library** or a **CLI**.
 
 ## Install
-
+   ![Install output](install.png)
 ```
 pip install git+https://github.com/neodotdev/worldclock.git
 ```
