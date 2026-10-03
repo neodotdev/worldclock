@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "worldclock"
+version = "1.0.0"
+description = "World clock + timezone database (regions, countries, converter) as a library and CLI"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["tzdata", "pytz"]
+
+[project.scripts]
+worldclock = "worldclock.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
